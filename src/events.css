@@ -1,0 +1,54 @@
+/* events.css */
+
+.EventsPageContainer {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.EventsPageTitle {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.EventsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.EventItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.EventImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.EventContent {
+  padding: 20px;
+}
+
+.EventTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.EventDescription {
+  margin-bottom: 10px;
+}
+
+.EventLink {
+  color: blue;
+  text-decoration: none;
+}
+
+.EventLink:hover {
+  text-decoration: underline;
+}

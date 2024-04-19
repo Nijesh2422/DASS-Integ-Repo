@@ -1,0 +1,196 @@
+/* Calendar CSS */
+
+.event-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(101, 133, 179);
+  border-radius: 50%;
+  margin-left: 18px;
+  align-items:flex-end;
+  position: absolute;
+  /* left: 2%; */
+}
+
+.react-calendar { 
+ width: 400px;
+ max-width: 100%;
+ background-color: #fff;
+ color: #222;
+ border-radius: 8px;
+ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 1.125em;
+}
+.react-calendar__navigation button {
+ color: #6f48eb;
+ min-width: 44px;
+ background: none;
+ font-size: 16px;
+ margin-top: 8px;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+ background-color: #f8f8fa;
+}
+.react-calendar__navigation button[disabled] {
+ background-color: #f0f0f0;
+}
+abbr[title] {
+ text-decoration: none;
+}
+/* .react-calendar__month-view__days__day--weekend {
+ color: #d10000;
+} */
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+ background: #f8f8fa;
+ color: #6f48eb;
+ border-radius: 6px;
+}
+.react-calendar__tile--now {
+ background: #6f48eb33;
+ border-radius: 6px;
+ font-weight: bold;
+ color: #6f48eb;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+ background: #6f48eb33;
+ border-radius: 6px;
+ font-weight: bold;
+ color: #6f48eb;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+ background: #f8f8fa;
+}
+.react-calendar__tile--active {
+ background: #6f48eb;
+ border-radius: 6px;
+ font-weight: bold;
+ color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+ background: #6f48eb;
+ color: white;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+ background-color: #f8f8fa;
+}
+.react-calendar__tile--range {
+ background: #f8f8fa;
+ color: #6f48eb;
+ border-radius: 0;
+}
+.react-calendar__tile--rangeStart {
+ border-top-right-radius: 0;
+ border-bottom-right-radius: 0;
+ border-top-left-radius: 6px;
+ border-bottom-left-radius: 6px;
+ background: #6f48eb;
+ color: white;
+}
+.react-calendar__tile--rangeEnd {
+ border-top-left-radius: 0;
+ border-bottom-left-radius: 0;
+ border-top-right-radius: 6px;
+ border-bottom-right-radius: 6px;
+ background: #6f48eb;
+ color: white;
+}
+.comment-box {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-left: 250px;
+  height: 250px; /* Set the desired height */
+  overflow-y: auto; 
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  color: grey;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* .update-btn,
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px; 
+    color: #333; 
+}
+
+.update-btn:hover,
+.delete-btn:hover {
+    color: #6f48eb;
+} */
+
+.event-card {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.event-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.event-card-body {
+  flex: 1;
+  align-items:flex-start;
+}
+.event-actions {
+  display: flex;
+  /* flex: 1; */
+  align-items:flex-end;
+}
+
+.update-btn{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 10px; 
+  color: #333; 
+  display: flex;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 10px; 
+  color: rgb(19, 18, 18); 
+  display: flex;
+}
+.update-btn:hover,
+.delete-btn:hover {
+  color: #6f48eb;
+}
+.event-card {
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 10px; 
+}
+
+.event-card:last-child {
+  border-bottom: none; 
+}
+
+.ok-btn{
+  padding: 5px;
+  color: grey;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
