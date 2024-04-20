@@ -1,0 +1,140 @@
+/* NewsPage.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container_news {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: #e7e7e7;
+}
+
+.Heading {
+  margin-bottom: 2%;
+  font-size: 2.4vw;
+  font-weight: bolder;
+}
+
+
+.news {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 2%;
+}
+
+.NewsImage {
+  height: auto;
+  border-radius: 5px;
+  /* position : absolute; */
+  transition: opacity 0.3s ease; /* add transition for smooth effect */
+}
+
+.ImageContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.HoveredNewsImage {
+  opacity: 0.5; /* decrease opacity on hover */
+  height: auto;
+  border-radius: 5px;
+  /* position: relative; */
+}
+
+.NewsContent {
+  padding-left: 3.2vw;
+  position: relative;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  /* transition: opacity 0.3s ease; add transition for smooth effect */
+}
+
+
+.ImageContainer {
+  width: 100%;
+  max-width: 30vw;
+  max-height: 30vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.edit_content {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  cursor: pointer;
+}
+
+.delete_content {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  cursor: pointer;
+}
+
+.textContainer{
+  margin-bottom: 3%;
+}
+
+.InputField {
+  border: none;
+  border-bottom: 1px solid rgb(188, 188, 188);
+  outline: none;
+  width: 100%;
+  background: transparent;
+  margin-bottom: 2%;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.title {
+  margin-bottom: 3vh;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.link {
+  position: absolute;
+  bottom: 5%;
+  right: 4%;
+}
+
+.Add-Publish{
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  gap: 1vw;
+}
+
+.EventsDate {
+  position: absolute;
+  bottom : 5%;
+  font-size: 1.5vw;
+}

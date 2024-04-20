@@ -1,0 +1,63 @@
+.Navbar{
+    background :#1D1D41;
+    border-radius: 1%;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 10px 0 10px;
+  }
+  
+  .Navbar p{
+    font-size: 40px;
+  }
+  
+  .container-user{
+    display: flex;
+    flex-direction: column;
+    background: #FEFEFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 5%;
+  }
+  
+  .content {
+    font-size: 30px;
+    margin-left: 8%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pageBox {
+    display: inline-flex;
+    padding: 1%;
+    cursor: pointer;
+  }
+  
+  .optionButton, .pageName {
+    margin-left: 20px;
+  }
+  
+  .options{
+    display: inline-flex;
+    visibility: hidden;
+  }
+  
+  .pageBox:hover > .options{
+    visibility: visible;
+  }
+  
+  .subPages {
+    margin-left: 5%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Navbar p{
+      font-size: 20px;
+    }
+    
+  }
