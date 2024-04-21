@@ -231,7 +231,6 @@ export default function DisplayEditPage({ Edititems,responseData }) {
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
-      
       console.log("Published Successfully");
       navigate('/admin-config');
     } catch (error) {
